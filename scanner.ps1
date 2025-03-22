@@ -26,7 +26,10 @@ if ($choice -eq "1"){
 elseif ($choice -eq "2") {
   Write-Host "`nPerforming detailed scan..."
 
-  
+  if (-Not (Get-Command nmap -ErrorAction SilentlyContinue)) {
+    Write-Host "Nmap not found. Please install nmap and try again."
+    Exit
+  }
 
   # Detailed nmap scan
   $fullRange = "$network.0/24"
