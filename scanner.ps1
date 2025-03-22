@@ -23,20 +23,17 @@ if ($choice -eq "1"){
     }
   }
 }
-# elseif ($choice -eq "2") {
-#   Write-Host "`nPerforming detailed scan..."
+elseif ($choice -eq "2") {
+  Write-Host "`nPerforming detailed scan..."
 
-#   if (-Not (Get-Command nmap -ErrorAction SilentlyContinue)) {
-#     Write-Host "Nmap not found. Please install nmap and try again."
-#     Exit
-#   }
+  
 
-#   # Detailed nmap scan
-#   $fullRange = "$network.0/24"
-#   nmap -sn $fullRange | Out-File -FilePath $results
-# }
-# else {
-#   Write-Host "Invalid choice!"
-# }
+  # Detailed nmap scan
+  $fullRange = "$network.0/24"
+  nmap -sn $fullRange | Out-File -FilePath $results
+}
+else {
+  Write-Host "Invalid choice!"
+}
 
-# Write-Host "`nScan complete. Results saved to $results"
+Write-Host "`nScan complete. Results saved to $results"
