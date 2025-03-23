@@ -9,7 +9,8 @@ This project provides a set of PowerShell scripts for network analysis and secur
 - **Multiple Scanning Techniques**: Supports various network protocols and methods
 
 ## Technologies Used
-1. **PowerShell**: Scripting language for automation and task management
+1. **Bash Shell**: Scripting for Linux/Unix environments
+2. **Git Bash** : Used to run the script on windows 
 2. **Nmap**: Powerful network scanning tool
 3. **ICMP/ARP Protocols**: Used for network device discovery
 4. **TCP/IP**: Core networking protocols for communication
@@ -31,4 +32,4 @@ These tools help in:
 - Detecting open ports and potential vulnerabilities
 
 ## Usage
-Run the scripts in PowerShell environment with Nmap installed. Results are saved in text files for further analysis.
+Run the scripts in Bash environment with Nmap installed. Results are saved in text files for further analysis.
