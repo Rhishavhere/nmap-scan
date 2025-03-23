@@ -1,0 +1,10 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-23 09:47 India Standard Time
+Nmap scan report for 192.168.1.1
+Host is up (0.0080s latency).
+MAC Address: 54:47:E8:83:67:4E (Syrotech Networks.)
+Nmap scan report for 192.168.1.37
+Host is up (0.10s latency).
+MAC Address: 26:CB:05:A4:81:9F (Unknown)
+Nmap scan report for 192.168.1.40
+Host is up.
+Nmap done: 256 IP addresses (3 hosts up) scanned in 14.94 seconds
